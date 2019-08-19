@@ -11,7 +11,7 @@ namespace CodeChallenge
             Console.Write("Enter numbers seperated by a comma or new line:  ");
             string userInput = Console.ReadLine();
             string[] nums = userInput.Split(
-                new[] { ",", "\\n" },
+                new[] { ",", "\\n",";" },
                 StringSplitOptions.None
             );
 
