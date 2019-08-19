@@ -2,6 +2,9 @@
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
 
+
+// No Code Changes between Part 7 and Part 8.
+
 namespace CodeChallenge
 {
     class Program
@@ -10,8 +13,6 @@ namespace CodeChallenge
         {
             Console.Write("Enter numbers seperated by a comma or new line:  ");
             string userInput = Console.ReadLine();
-            // string pattern = "[a-zA-Z]+";
-            // string[] nums = Regex.Split(userInput, pattern);
             
             userInput = Regex.Replace(userInput, "[^0-9.]",",");
             string[] nums = userInput.Split(
