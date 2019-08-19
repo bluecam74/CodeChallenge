@@ -10,11 +10,14 @@ namespace CodeChallenge
         {
             Console.Write("Enter numbers seperated by a comma or new line:  ");
             string userInput = Console.ReadLine();
+            // string pattern = "[a-zA-Z]+";
+            // string[] nums = Regex.Split(userInput, pattern);
+            
+            userInput = Regex.Replace(userInput, "[^0-9.]",",");
             string[] nums = userInput.Split(
                 new[] { ",", "\\n",";" },
                 StringSplitOptions.None
             );
-
             int[] terms = new int[400];
             var negTerms = new List<string>();
 
