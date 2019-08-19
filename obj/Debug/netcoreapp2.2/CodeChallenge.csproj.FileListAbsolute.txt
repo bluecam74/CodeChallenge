@@ -1,0 +1,11 @@
+/Users/malak/Desktop/CodeChallenge/bin/Debug/netcoreapp2.2/CodeChallenge.deps.json
+/Users/malak/Desktop/CodeChallenge/bin/Debug/netcoreapp2.2/CodeChallenge.runtimeconfig.json
+/Users/malak/Desktop/CodeChallenge/bin/Debug/netcoreapp2.2/CodeChallenge.runtimeconfig.dev.json
+/Users/malak/Desktop/CodeChallenge/bin/Debug/netcoreapp2.2/CodeChallenge.dll
+/Users/malak/Desktop/CodeChallenge/bin/Debug/netcoreapp2.2/CodeChallenge.pdb
+/Users/malak/Desktop/CodeChallenge/obj/Debug/netcoreapp2.2/CodeChallenge.csprojAssemblyReference.cache
+/Users/malak/Desktop/CodeChallenge/obj/Debug/netcoreapp2.2/CodeChallenge.csproj.CoreCompileInputs.cache
+/Users/malak/Desktop/CodeChallenge/obj/Debug/netcoreapp2.2/CodeChallenge.AssemblyInfoInputs.cache
+/Users/malak/Desktop/CodeChallenge/obj/Debug/netcoreapp2.2/CodeChallenge.AssemblyInfo.cs
+/Users/malak/Desktop/CodeChallenge/obj/Debug/netcoreapp2.2/CodeChallenge.dll
+/Users/malak/Desktop/CodeChallenge/obj/Debug/netcoreapp2.2/CodeChallenge.pdb
