@@ -30,6 +30,11 @@ namespace CodeChallenge
                     {
                         negTerms.Add(result.ToString());
                     }
+                    else if (result > 1000) 
+                    {
+                        result = 0;
+                        terms[i] = result;
+                    }
                 }
                 catch
                 {
