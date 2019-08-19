@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace CodeChallenge
 {
@@ -8,8 +9,12 @@ namespace CodeChallenge
         {
             Console.Write("Enter numbers seperated by a comma:  ");
             string userInput = Console.ReadLine();
-            string[] nums = userInput.Split(',');
-            int[] terms = new int[4];
+            string[] nums = userInput.Split(
+                new[] {",", "\\n" },
+                StringSplitOptions.None
+            );
+
+            int[] terms = new int[400];
 
             for (int i = 0; i < nums.Length; i++)
             {
